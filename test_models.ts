@@ -1,0 +1,1 @@
+import 'dotenv/config'; import fs from 'fs'; fetch('https://generativelanguage.googleapis.com/v1beta/models?key=' + process.env.GEMINI_API_KEY).then(res => res.json()).then(data => { const m = data.models.map(x => x.name); fs.writeFileSync('models.txt', m.join('\n')); }).catch(e => console.error(e));

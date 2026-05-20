@@ -1,0 +1,1 @@
+﻿STATUS: 500 BODY: {"message":"Failed to start interview: null value in column \"job_title\" of relation \"mock_interviews\" violates not-null constraint"}

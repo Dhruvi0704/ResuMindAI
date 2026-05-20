@@ -1,0 +1,12 @@
+﻿[dotenv@17.2.4] injecting env (7) from .env -- tip: ≡ƒæÑ sync secrets across teammates & machines: https://dotenvx.com/ops
+Dropping NOT NULL constraints on deprecated columns...
+Dropped NOT NULL for job_title
+Dropped NOT NULL for experience_level
+Dropped NOT NULL for job_description
+Dropped NOT NULL for score
+Dropped NOT NULL for status
+Dropped NOT NULL for violation_count
+Dropped NOT NULL for integrity_score
+Dropped NOT NULL for termination_reason
+Dropped NOT NULL for round_type
+Patch complete!

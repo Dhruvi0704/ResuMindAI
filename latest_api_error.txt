@@ -1,0 +1,9 @@
+PostgresError: column "target_role" of relation "mock_interviews" does not exist
+    at ErrorResponse (file:///C:/Users/AARYAN/Downloads/ResuMindAI%20(2)%20(2)/ResuMindAI/node_modules/postgres/src/connection.js:815:30)
+    at handle (file:///C:/Users/AARYAN/Downloads/ResuMindAI%20(2)%20(2)/ResuMindAI/node_modules/postgres/src/connection.js:489:6)
+    at Socket.data (file:///C:/Users/AARYAN/Downloads/ResuMindAI%20(2)%20(2)/ResuMindAI/node_modules/postgres/src/connection.js:324:9)
+    at Socket.emit (node:events:524:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+    at TCP.onStreamRead (node:internal/stream_base_commons:189:23)

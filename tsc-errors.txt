@@ -1,0 +1,6 @@
+﻿client/src/components/wizard/steps/ReviewStep.tsx(412,81): error TS7006: Parameter 'item' implicitly has an 'any' type.
+client/src/components/wizard/steps/ReviewStep.tsx(412,87): error TS7006: Parameter 'idx' implicitly has an 'any' type.
+client/src/pages/MyDocuments.tsx(2,10): error TS2300: Duplicate identifier 'apiRequest'.
+client/src/pages/MyDocuments.tsx(3,10): error TS2300: Duplicate identifier 'apiRequest'.
+client/src/pages/ResumeGenerator.tsx(1,10): error TS2300: Duplicate identifier 'ResumeProvider'.
+client/src/pages/ResumeGenerator.tsx(2,10): error TS2300: Duplicate identifier 'ResumeProvider'.

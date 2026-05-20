@@ -1,0 +1,1 @@
+﻿STATUS: 500 BODY: {"message":"Failed to start interview: column \"target_role\" of relation \"mock_interviews\" does not exist"}

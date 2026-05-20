@@ -1,0 +1,1 @@
+﻿STATUS: 500 BODY: {"message":"Failed to start interview: Cannot access 'db' before initialization"}

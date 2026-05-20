@@ -1,0 +1,80 @@
+Create a React.js multi-page web application called "ResuMind AI" with the following features:
+
+1. **Login Page**
+   - Page with email and password fields.
+   - Login button validates input (no backend needed, just simulate login).
+   - After login, redirect to Home page.
+
+2. **Home Page**
+   - Vibrant, Gen Z style with colorful, creative design.
+   - Navbar with logo on the left, links to Home, Resume Generator, Resume Screening, CV Generator, About, Contact.
+   - Dark/bright mode toggle in navbar.
+   - Footer with contact info, About Us, and other info.
+   - Clicking logo always redirects to Home page.
+   - Three big clickable boxes for:
+     - Resume Generator
+     - Resume Screening
+     - CV Generator
+   - Each box navigates to respective page.
+
+3. **Resume Generator Page**
+   - Two options:
+     1. Automatic Generator:
+        - Ask 5-10 questions based on job role (name, experience, skills, education, achievements, etc.).
+        - Generate ATS-friendly resume based on answers.
+        - Editable preview of resume before download.
+     2. Template-based Generator:
+        - Show free & premium templates.
+        - Option to recommend templates based on job role.
+        - Editable resume before download.
+   - Export option to PDF using html2canvas + jspdf.
+
+4. **Resume Screening Page**
+   - Upload resume (PDF/DOCX, max 10 MB).
+   - Input job role, annual package/CTC, and work experience in years.
+   - Analyze resume and provide:
+     - ATS score
+     - Recommendations to improve the resume (skills, projects, sections, keywords).
+   - Display results in a vibrant dashboard.
+
+5. **CV Generator Page**
+   - Two options:
+     1. Create New CV:
+        - Choose a template (free & premium).
+        - Ask job-specific questions (experience, skills, education, achievements).
+        - Generate editable CV and download option.
+     2. Improve My CV:
+        - Upload existing CV (PDF/DOCX up to 10 MB).
+        - Analyze CV according to job role.
+        - Provide ATS score and improvement recommendations.
+
+6. **Other Features**
+   - Logo consistent on all pages, clickable to Home.
+   - Navbar should show dark/bright mode toggle.
+   - Footer consistent on all pages.
+   - Use React Router v6 for multi-page navigation.
+   - Multi-page layout: Login → Home → Resume Generator / Screening / CV Generator.
+   - Clean, modern, Gen Z style UI (bright colors, smooth buttons, interactive cards).
+   - Editable resumes and CVs with live preview.
+   - Free and premium templates displayed nicely in grid cards.
+   - ATS recommendations highlighted clearly in screening & CV improve page.
+   - Use only React, html2canvas, jspdf, react-router-dom, and standard free libraries.
+
+7. **Code Requirements**
+   - All pages must be components in `src/pages`.
+   - Navbar and Footer as separate reusable components in `src/components`.
+   - Use `styles.css` for styling.
+   - Include `package.json` dependencies for React, react-router-dom, jspdf, html2canvas.
+   - All scripts should work with `npm install` and `npm start`.
+   - No errors during build or runtime.
+
+8. **Extra**
+   - Home page should be responsive.
+   - Dark/bright mode persists across pages.
+   - Resume/CV generator pages must allow editing text before download.
+   - Include dummy free & premium templates with colorful previews.
+
+9. **Output**
+   - Provide all code files: `App.jsx`, `index.js`, `package.json`, `pages/*`, `components/*`, `styles.css`.
+   - Ready to run on Replit or local React environment.
+

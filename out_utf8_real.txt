@@ -1,0 +1,35 @@
+﻿[dotenv@17.2.4] injecting env (7) from .env -- tip: ≡ƒöÉ prevent committing .env to code: https://dotenvx.com/precommit
+Starting generation...
+[dotenv@17.2.4] injecting env (7) from .env -- tip: ΓÜÖ∩╕Å  write to custom object with { processEnv: myObject }
+SUCCESS: [
+  {
+    question: 'Explain the difference between a Python list and a NumPy array. Why is NumPy preferred for mathematical operations in AI development?',
+    category: 'Technical Round',
+    difficulty: 'Easy',
+    modelAnswer: "The candidate should explain that Python lists are generic containers for heterogeneous data types, while NumPy arrays are homogeneous and stored in contiguous memory. Look for mentions of 'vectorization' and 'broadcasting' which allow NumPy to perform operations much faster than standard Python loops by utilizing C-based optimizations."
+  },
+  {
+    question: "What is the 'Vanishing Gradient' problem in deep neural networks, and how do activation functions like ReLU help mitigate it?",
+    category: 'Technical Round',
+    difficulty: 'Medium',
+    modelAnswer: 'The candidate should describe how gradients become extremely small during backpropagation in deep networks, preventing weights from updating. They should explain that Sigmoid/Tanh saturate at 0 or 1, whereas ReLU (Rectified Linear Unit) has a constant gradient of 1 for positive inputs, allowing gradients to flow more effectively.'
+  },
+  {
+    question: 'Describe the difference between L1 (Lasso) and L2 (Ridge) regularization. When would you choose one over the other?',
+    category: 'Technical Round',
+    difficulty: 'Medium',
+    modelAnswer: 'Look for the explanation that L1 adds the absolute value of coefficients to the loss function, often leading to sparse feature sets (feature selection), while L2 adds the squared magnitude and penalizes large weights without necessarily zeroing them out. L1 is better for high-dimensional data with few relevant features; L2 is better for preventing overall model complexity.'
+  },
+  {
+    question: "How does the 'Gradient Descent' algorithm work, and what is the impact of setting a learning rate that is either too high or too low?",
+    category: 'Technical Round',
+    difficulty: 'Medium',
+    modelAnswer: 'The candidate should explain it as an optimization algorithm that iteratively moves towards the global minimum of a loss function. A learning rate that is too high can cause the model to overshoot the minimum and diverge; a learning rate that is too low results in very slow convergence and may get stuck in local minima.'
+  },
+  {
+    question: "In a classification task, if your dataset is highly imbalanced (e.g., 99% Class A and 1% Class B), why is 'Accuracy' a poor metric? What metrics would you use instead?",
+    category: 'Technical Round',
+    difficulty: 'Hard',
+    modelAnswer: "The candidate should identify that a model could achieve 99% accuracy by simply predicting Class A every time. They should suggest using Precision, Recall, F1-Score, or the Area Under the Precision-Recall Curve (AUPRC) to better evaluate the model's performance on the minority class."
+  }
+]

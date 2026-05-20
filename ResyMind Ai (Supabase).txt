@@ -1,0 +1,4 @@
+GEMINI_API_KEY=AIzaSyDGczyGXZN4oNgVFN_gshc0nn1HocxLKtY
+PYTHON_SERVICE_URL=http://localhost:5001
+DATABASE_URL=postgresql://postgres.kubgcuxsvlqkqquvpcoy:A@ryan_142004@aws-1-ap-south-1.pooler.supabase.com:5432/postgres
+

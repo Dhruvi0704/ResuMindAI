@@ -1,0 +1,1 @@
+fetch('http://127.0.0.1:5000/api/interviews/start', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({jobTitle: 'Data Science', experienceLevel: 'Fresher (0-1 years)', roundType: 'Semi-Technical Round', jobDescription: 'Testing'}) }).then(res => res.text()).then(t => console.log('RESPONSE:', t))

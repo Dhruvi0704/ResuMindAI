@@ -1,0 +1,70 @@
+﻿[dotenv@17.2.4] injecting env (7) from .env -- tip: ≡ƒ¢á∩╕Å  run anywhere with `dotenvx run -- yourcommand`
+Running drizzle-kit push with proper URL...
+No config path provided, using default 'drizzle.config.ts'
+Reading config file 'C:\Users\AARYAN\Downloads\ResuMindAI (2) (2)\ResuMindAI\drizzle.config.ts'
+Using 'pg' driver for database querying
+[Γú╖] Pulling schema from database...
+[2K[1G[Γú»] Pulling schema from database...
+[2K[1G[Γúƒ] Pulling schema from database...
+[2K[1G[Γí┐] Pulling schema from database...
+[2K[1G[Γó┐] Pulling schema from database...
+[2K[1G[Γú╗] Pulling schema from database...
+[2K[1G[Γú╜] Pulling schema from database...
+[2K[1G[Γú╖] Pulling schema from database...
+[2K[1G[Γú»] Pulling schema from database...
+[2K[1G[Γúƒ] Pulling schema from database...
+[2K[1G[Γ£ô] Pulling schema from database...
+[?25l
+Is activity_log table created or renamed from another table?
+Γ¥» + activity_log           create table
+  ~ session ΓÇ║ activity_log rename table[2K[1G[?25h+ activity_log table will be created
+[?25l
+Is ats_evaluations table created or renamed from another table?
+Γ¥» + ats_evaluations           create table
+  ~ session ΓÇ║ ats_evaluations rename table[2K[1G[?25h+ ats_evaluations table will be created
+[?25l
+Is cv_analyses table created or renamed from another table?
+Γ¥» + cv_analyses           create table
+  ~ session ΓÇ║ cv_analyses rename table[2K[1G[?25h+ cv_analyses table will be created
+[?25l
+Is cv_documents table created or renamed from another table?
+Γ¥» + cv_documents           create table
+  ~ session ΓÇ║ cv_documents rename table[2K[1G[?25h+ cv_documents table will be created
+[?25l
+Is cv_improvements table created or renamed from another table?
+Γ¥» + cv_improvements           create table
+  ~ session ΓÇ║ cv_improvements rename table[2K[1G[?25h+ cv_improvements table will be created
+[?25l
+Is gap_analyses table created or renamed from another table?
+Γ¥» + gap_analyses           create table
+  ~ session ΓÇ║ gap_analyses rename table[2K[1G[?25h+ gap_analyses table will be created
+[?25l
+Is user_profiles table created or renamed from another table?
+Γ¥» + user_profiles           create table
+  ~ session ΓÇ║ user_profiles rename table[2K[1G[?25h+ user_profiles table will be created
+--- all table conflicts resolved ---
+
+[?25l
+Is target_role column in mock_interviews table created or renamed from another column?
+Γ¥» + target_role                      create column
+  ~ job_title ΓÇ║ target_role          rename column
+  ~ experience_level ΓÇ║ target_role   rename column
+  ~ job_description ΓÇ║ target_role    rename column
+  ~ score ΓÇ║ target_role              rename column
+  ~ status ΓÇ║ target_role             rename column
+  ~ violation_count ΓÇ║ target_role    rename column
+  ~ integrity_score ΓÇ║ target_role    rename column
+  ~ termination_reason ΓÇ║ target_role rename column
+  ~ round_type ΓÇ║ target_role         rename column[2K[1G
+[?25h+ target_role column will be created
+[?25l
+Is questions column in mock_interviews table created or renamed from another column?
+Γ¥» + questions                      create column
+  ~ job_title ΓÇ║ questions          rename column
+  ~ experience_level ΓÇ║ questions   rename column
+  ~ job_description ΓÇ║ questions    rename column
+  ~ score ΓÇ║ questions              rename column
+  ~ status ΓÇ║ questions             rename column
+  ~ violation_count ΓÇ║ questions    rename column
+  ~ integrity_score ΓÇ║ questions    rename column
+  ~ termination_reason ΓÇ║ questions rename column

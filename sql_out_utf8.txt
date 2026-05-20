@@ -1,0 +1,12 @@
+﻿[dotenv@17.2.4] injecting env (7) from .env -- tip: ≡ƒöä add secrets lifecycle management: https://dotenvx.com/ops
+Adding missing columns to mock_interviews...
+{
+  severity_local: 'NOTICE',
+  severity: 'NOTICE',
+  code: '42701',
+  message: 'column "feedback" of relation "mock_interviews" already exists, skipping',
+  file: 'tablecmds.c',
+  line: '7471',
+  routine: 'check_for_column_name_collision'
+}
+Columns added successfully!

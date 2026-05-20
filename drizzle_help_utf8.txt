@@ -1,0 +1,29 @@
+﻿
+Usage:
+  drizzle-kit push [flags]
+
+Flags:
+  --config string                                                         Path to drizzle config file
+  --dialect [ postgresql | mysql | sqlite | turso | singlestore | gel ]   Database dialect: 'gel', 'postgresql', 'mysql', 'sqlite', 'turso' or 'singlestore'
+  --casing [ camelCase | snake_case ]                                     Casing for serialization
+  --schema string                                                         Path to a schema file or folder
+  --tablesFilter string                                                   Table name filters
+  --schemaFilters string                                                  Schema name filters
+  --extensionsFilters string                                              `Database extensions internal database filters
+  --url string                                                            Database connection URL
+  --host string                                                           Database host
+  --port string                                                           Database port
+  --user string                                                           Database user
+  --password string                                                       Database password
+  --database string                                                       Database name
+  --ssl string                                                            ssl mode
+  --auth-token string                                                     Database auth token [Turso]
+  --tlsSecurity string                                                    tls security mode
+  --driver [ d1-http | expo | aws-data-api | pglite | durable-sqlite ]    Database driver
+  --verbose                                                               Print all statements for each push (default: false)
+  --strict                                                                Always ask for confirmation (default: false)
+  --force                                                                 Auto-approve all data loss statements. Note: Data loss statements may truncate your tables and data (default: false)
+
+Global flags:
+  -h, --help      help for push
+  -v, --version   version for drizzle-kit

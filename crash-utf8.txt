@@ -1,0 +1,46 @@
+﻿node.exe : C:\Users\Bhoomi\On
+eDrive\Desktop\ResuMind AI la
+test\ResuMindAI\server\db.ts:
+6
+At line:1 char:1
++ & "C:\Program 
+Files\nodejs/node.exe" 
+"C:\Program 
+Files\nodejs/node_mo ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~
+    + CategoryInfo           
+   : NotSpecified    : 
+(C:\Users\Bhoomi.    
+..\server\db.ts:6:S    
+tring) [], RemoteEx    
+ception
+    + FullyQualifiedErr    
+orId : NativeComman    dError
+ 
+    throw new 
+Error("DATABASE_URL must be 
+set. Did you forget to 
+provision a database?");
+          ^
+
+
+Error: DATABASE_URL must be 
+set. Did you forget to 
+provision a database?
+    at <anonymous> (C:\Users\
+Bhoomi\OneDrive\Desktop\ResuM
+ind AI latest\ResuMindAI\serv
+er\db.ts:6:11)
+    at ModuleJob.run (node:in
+ternal/modules/esm/module_job
+:345:25)
+    at async onImport.tracePr
+omise.__proto__ (node:interna
+l/modules/esm/loader:665:26)
+    at async asyncRunEntryPoi
+ntWithESMLoader (node:interna
+l/modules/run_main:117:5)
+
+Node.js v22.20.0
