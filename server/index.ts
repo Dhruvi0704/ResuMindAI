@@ -60,7 +60,12 @@ validateGemini();
 
 (async () => {
   // 1. Connect to DB
+  try {
   await connectDB();
+  console.log("✅ Database connected successfully");
+} catch (error) {
+  console.error("❌ Database startup error:", error);
+}
 
   // 2. Setup Session
   const PostgresStore = pgSessionStore(session);
